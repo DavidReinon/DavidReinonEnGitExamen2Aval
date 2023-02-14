@@ -1,6 +1,6 @@
 #!/bin/bash
 repetir=true
-while [[ $repetir == true ]]; do
+while [ $repetir = true ]; do
 
     read -p "Introduce la ciudad: " ciudad
     ciudadLimite=$(cat consumos.txt | grep $ciudad -i -c)
