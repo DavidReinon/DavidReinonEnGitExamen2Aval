@@ -10,5 +10,5 @@ else
         total=$(($total + $consumo))
     done
     media=$(($total / $ciudadLimite))
-    echo "La media de consumos de $1 es de $media"
+    echo "Media consumos $1: $media"
 fi
